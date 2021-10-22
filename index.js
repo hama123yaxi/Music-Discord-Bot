@@ -7,6 +7,8 @@ const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
 client.login('');
+client.login('OTAwOTA1NTk5Mzg1MTAwMzE5.YXIHuA.mLhCRXl0oviusX4jrAkV6Lne4Bw');
+
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
